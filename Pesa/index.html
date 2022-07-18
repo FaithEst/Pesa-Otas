@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pesa Otas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--header icon CSS -->
+    <link rel="icon" href="assets/img/fabicon.png">
+    <!-- animations CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- font-awsome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- mobile menu CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+           function geeks(msg, gfg) {
+            var confirmBox = $("#container");
+             
+            /* Trace message to display */
+            confirmBox.find(".message").text(msg);
+             
+            /* Calling function */
+            confirmBox.find(".yes").unbind().click(function()
+            {
+            confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(gfg);
+            confirmBox.show();
+             
+            confirmBox.find(".no").unbind().click(function()
+            {
+            confirmBox.hide();
+            });
+            confirmBox.find(".no").click(gfg);
+            confirmBox.show();
+        }
+        </script>
+        <style>
+         
+        /* Designing dialog box */
+        #container {
+            display: none;
+            background-image:url("assets/img/robot.jpg");
+            background-size:cover;
+            color: white;
+            position: absolute;
+            width: 350px;
+            border-radius: 10px;
+            right: 10%;
+            margin-left: -160px;
+            padding: 16px 8px 8px;
+            box-sizing: border-box;
+        }
+         
+        /* Designing dialog box's okay button */
+        #container .yes {
+            background-color:#000000;
+            color:white;
+            size:20px;
+            display: inline-block;
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding: 5px;
+            margin-left: 10px;
+            text-align: center;
+            width: 90px;
+            float: right;
+        }
+         
+        #container .no {
+            background-color:#000000;
+            color:white;
+            display: inline-block;
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding: 5px;
+            margin-left: 10px;
+            text-align: center;
+            width: 90px;
+            float: left;
+        }
+         
+        #container .yes:hover {
+            background-color: blue;
+        }
+         
+        #container .no:hover {
+            background-color: blue;
+        }
+         
+        /* Dialog box message decorating */
+        #container .message {
+            text-align: left;
+            padding: 10px 30px;
+        }
+        </style>
+</head>
+
+<body>
+    <!--header area start-->
+    <div class="header-area wow fadeInDown header-absolate" id="nav" data-0="position:fixed;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 d-block d-lg-none">
+                    <div class="mobile-menu"></div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="logo-area">
+                      
+                    </div>
+                </div>
+                <div class="col-4 col-lg-8 d-none d-lg-block">
+                    <div class="main-menu text-center">
+                        <nav>
+                            <ul id="slick-nav">
+                                <li><a class="scroll" href="#home">Home</a>
+                                    </li>
+                                    <li><a class="scroll" href="#about">Token subscription Process</a>
+                                    </li>
+                                    <li><a class="scroll" href="#token">Monetary Exchange .</a></li>
+                                   
+                                    <li><a class="scroll" href="#roadmap">Donating process</a></li>
+                                   
+                                    
+                                    <li><a class="scroll" href="#faq">FAQs</a></li>
+                            
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-right">
+                    <a href="sign.html" class="logibtn gradient-btn">logout</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--header area end-->
+
+    <!--welcome area start-->
+<hr>
+    <div class="welcome-area wow fadeInUp" id="home">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <div class="welcome-right">
+                        <div class="welcome-text">
+                            <h1>Pesa Otas </h1>
+                            <h4>Pesa Otas is a DEFI or decentralised Financial system with ERC20 standards that allows for services that include :
+                            <hr> ~ Allowing for Organizational money transfer that is monitored with bar codes and signatures to allow for protection of the cashless flow.
+                                <hr>~ Allow for sharing of monetary resources among groups in need by NGO.
+                                <hr>~Enable for faster and real time money exchange network.
+                                <hr>~ Allow for open market system where users buy products with their own price ranges.
+                            </h4>
+                        </div>
+                        <div class="welcome-btn">
+                            <a href="#" class="gradient-btn v2 mr-20">Mobile Application.</a>
+                            <a href="#" class="gradient-btn v2">Deposit or withdraw</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="welcome-img">
+                        <img src="assets/img/block.jpg"style="width:600px;height:600px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--welcome area end-->
+
+    <!--about area start-->
+    <div class="about-area wow fadeInUp" id="about">
+        <div class="space-30"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="heading">
+                        <h5>Buy our coins at:</h5>
+                    </div>
+                    <div class="space-30"></div>
+                </div>
+            </div>
+            <p>From your Depostied amount buy our tokens to be able to transact and purchase our various services.You will receive your information to indicate your levels our rates are :
+                <hr>
+            1 Pesa Coin  =  1 Kenyan Shllings .
+            <hr>
+        1 Pesa Otas = 1 dollar.
+        <hr>
+    </p>
+
+<div>
+
+</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo-carousel owl-carousel text-center">            
+                    </div>
+                </div>
+                <form onSubmit="App.buyTokens(); return false;" role="form">
+            <div class="form-group">
+              <div class="input-group">
+                <input id="numberOfTokens" class="form-control input-lg" type="number" name="number" value="1" min="1" pattern="[0-9]">
+                </input>
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-primary btn-lg">Buy Tokens</button>
+                </span>   
+              </div>
+            </div>
+          </form>
+          <hr>
+          <div id="container">
+            <div class="message">
+                You are about to <br>Cash Out your Pesa Otas
+                Kindly check again your Option if this is what you want to do press </div>
+            <button class="yes">Okay</button>
+            <button class="no">Cancel</button>
+        </div>
+        <div > <input class="gradient-btn v2 mr-20"  type="button" value="Cash Out" onclick="geeks();" /></div>
+       
+          <hr>
+       <hr>
+            <div class="space-90"></div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="about-mid-img">
+                        <img src="assets/img/statement.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 align-self-center">
+                    <div class="heading">
+                        <h5>We find solutions in: </h5>
+                    </div>
+                    <div class="about-mid-text">
+                        <h3>Exchange System</h3>
+                        <div class="space-10"></div>
+                        <p>Risk associated with foreign exchange :<hr>
+                            ~ Transaction  risk : Transaction risk is the risk faced by a company when making financial transactions between jurisdictions. The risk is the change in the exchange rate before transaction settlement. Essentially, the time delay between transaction and settlement is the source of transaction risk. Transaction risk can be mitigated using forward contracts and options.
+
+<hr>
+                            ~ Economic risk : Economic risk, also known as forecast risk, is the risk that a company’s market value is impacted by unavoidable exposure to exchange rate fluctuations. Such a type of risk is usually created by macroeconomic conditions such as geopolitical instability and/or government regulations.
+<hr>
+                            ~Translation risk : Translation risk, also known as translation exposure, refers to the risk faced by a company headquartered domestically but conducting business in a foreign jurisdiction, and of which the company’s financial performance is denoted in its domestic currency. Translation risk is higher when a company holds a greater portion of its assets, liabilities, or equities in a foreign currency.
+                            <hr>
+                            Solution : By providing an  opportunity that provides a cash exchange system that does away with third parties which might bring in this risks.
+                            <p>
+                    </div>
+                    <div class="space-30"></div>
+                    <a href="#" class="gradient-btn v2 about-btn"> <i class="fa fa-send-o"></i>Transact Local Currency.</a>
+                </div>
+            </div>
+        </div>
+        <div class="space-90"></div>
+    </div>
+    <!--about area end-->
+
+    <!--single about area start-->
+
+    <div class="single-about-area wow fadeInUp">
+        <div class="container">
+             <h3>Blockchain Barcode System</h3>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/cryptolock.jpg" alt="">
+                        </div>
+                        <div class="single-about-text">
+                            <h4>Cryptography System</h4>
+                            <p>Organizations plunged by corruptions with cashless money system would have a solution to control flow of the money to their organizations within and outside the organization.Locking deposited money change its value and give it a public key only accesible by a private key.Only way to lock your monetary system  through  Barcode system that allows only authorised users to transact Money.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/bank.jpg" alt="">
+                        </div>
+                        <div class="single-about-text">
+                            <h4>Connecting your system to other Fintech Intermidiaries</h4>
+                            <p>We get your money system to the bank and other Fintech systems with great reliability to getting your moneys value, with reliable and secured access to your organizational cashflow system we give you responsiblity in managing your own Money under your own terms.</p>
+                          
+                        </div>
+                    </a>
+                      <hr>
+                         <div class="welcome-btn">
+                            <a href="#" class="gradient-btn v2 mr-20">Get Started.</a>
+                            
+                        </div>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/cryptouuse.jpg" alt="">
+                        </div>
+                        <div class="single-about-text">
+                            <h4>Planning Away</h4>
+                            <p>Entering into Financial contracts would require you to be responsible with Financial and easy retractable measures to unscrupulous Vendors for your business.The system in your own customization monitors your supply chain and timelines with great pland ahead it retracts back unfulfilled contracts and therefore bringing back a health business flow ,providing for good suppliers.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="space-90"></div>
+     
+    </div>
+    <!--single about area end-->
+
+    <!--ico area start-->
+    <div class="section-padding wow fadeInUp ico-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="ico-heading">
+                        <h3><a href="#">Market</a> Place</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="single-ico">
+                        <h5>Random Purchase prices</h5>
+                        <h5>Price matching points</h5>
+                        <a href="#">Ready borne market</a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="single-ico">
+                        <h5><a href="#">~ PPP</a>Peer To Peer Purchasing</h5><hr>
+                        <h5><a href="#">~ NCA(Near closed Anonimity)</a> Pseudonymity</h5><hr>
+                        <h5><a href="#">~ Offering when sales at its highest</a>Market Time</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="single-ico">
+                        <h5>Market Opens  in :</h5>
+                        <div class="row">
+                            <div class="col">
+                                <span id="days"></span>
+                                <h5>days</h5>
+                            </div>
+                            <div class="col">
+                                <span id="hours"></span>
+                                <h5>hours</h5>
+                            </div>
+                            <div class="col">
+                                <span id="minutes"></span>
+                                <h5>minutes</h5>
+                            </div>
+                            <div class="col">
+                                <span id="seconds"></span>
+                                <h5>seconds</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="custom-progressBar">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                <div class="progress-details">
+                                    <p>Purchase maximum</p>
+                                    <div class="progress-d-top"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="single-cup">
+                                <p>Customer Price Qoute.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 text-right">
+                            <div class="single-cup right">
+                                <p>Sales Qoute</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#" class="gradient-btn v2">Commit to Sales</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ico area end-->
+
+    <!--Documentation area start-->
+    <div class="section-padding documentation-area wow fadeInUp" id="Paper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="heading">
+                        <h5></h5>
+                        <div class="space-10"></div>
+                        <h1>Alleviating Poverty levels.</h1>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-6 col-lg">
+                    <div class="single-document">
+                        <div class="document-flag">
+                            <img src="assets/img/index.jpeg" alt="">
+                        </div>
+                        <button class="single-document-text">
+                            <span>World Health Organization</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-document">
+                        <div class="document-flag">
+                            <img src="assets/img/images.jpeg" alt="">
+                        </div>
+                        <button class="single-document-text">
+                            <span>Food Agriculture Organization</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-document">
+                        <div class="document-flag">
+                            <img src="assets/img/moses.jpeg" alt="">
+                        </div>
+                        <button class="single-document-text">
+                            <span>Wolrd Bank</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-document">
+                        <div class="document-flag">
+                            <img src="assets/img/moses.png" alt="">
+                        </div>
+                        <button class="single-document-text">
+                            <span>UN</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-document">
+                        <div class="document-flag">
+                            <img src="assets/img/mo.png" alt="">
+                        </div>
+                        <button class="single-document-text">
+                            <span>Save Children UK</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Documentation area end-->
+
+    <!--distibution-bg start-->
+    <div class="distibution-bg">
+        <!---distibution area start-->
+        <div class="distibution wow fadeInUp" id="token">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>African Poor Countries Statistics</h5>
+                            <div class="space-10"></div>
+                            <h4></h4>
+                        </div>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6 text-right">
+                        <div class="distibution-svg distibution-svg-1">
+                            <img src="assets/img/token-top.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="distibution-d item-1">
+                            <ul>
+                                <li class="distibution-list-1"><span>36% </span>Africa</li>
+                                <li class="distibution-list-2"><span>34% </span>Middle East</li>
+                                <li class="distibution-list-3"><span>7% </span>North America</li>
+                                <li class="distibution-list-4"><span>13% </span>South America</li>
+                                <li class="distibution-list-4"><span>10% </span>Australia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-90"></div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h3>Reasorces Distribution Efficiency in African Poor Countries.</h3>
+                            <div class="space-10"></div>
+                            <p>The need to make resources work for the poor is a challange in it self within African countries and the need to find a solution is important Pesa Otas ensures that third parties that are in direct or indirect line with cash flow are able to get their money.</p>
+                        </div>
+                        <div class="space-90"></div>
+                    </div>
+                </div>
+                        
+            </div>
+            <div class="space-90"></div>
+        </div>
+        <!---distibution area end-->
+    </div>
+    <!--distibution-bg end-->
+
+    <!--roadmap area start-->
+    <div class="roadmap-area section-padding wow fadeInUp" id="roadmap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="heading">
+                        <h1>Donate Process</h1>
+                    </div>
+                    <div class="space-60 d-none d-sm-block"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="roadmap-carousel owl-carousel">
+                <div class="roadmap-item">
+                    <div class="single-roadmap text-center road-left">
+                        <div class="single-roadmap-img">
+                            <img src="assets/img/roadmap-1.png" alt="">
+                        </div>
+                        <div class="space-30"></div>
+                        <div class="roadmap-text">
+                            <p>Deposit Money by clicking Deposit</p>
+                            <div class="space-10"></div>
+                            <h5>Initialise transaction with Bank or your Financial account.</h5>
+                            <p>Deposit your Money from your bank account or any other financial Intermediary that holds your Money.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item align-self-center">
+                    <div class="single-roadmap road-right">
+                        <div class="row">
+                            <div class="col-5 align-self-center">
+                                <div class="single-roadmap-img">
+                                    <img src="assets/img/roadmap-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="roadmap-text">
+                                    <p>Choose to Donate</p>
+                                    <h5>Select the Donate option to initialize your transaction.</h5>
+                                    <p>Choose Donate option and also the country you would like for your donation to go to.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="roadmap-item">
+                    <div class="single-roadmap text-center road-left">
+                        <div class="single-roadmap-img">
+                            <img src="assets/img/roadmap-4.png" alt="">
+                        </div>
+                        <div class="space-30"></div>
+                        <div class="roadmap-text">
+                            <p>Exercise Amount</p>
+                            <div class="space-10"></div>
+                            <h5>Place your Donation range Anonymously</h5>
+                            <p>Give your Donation amount or merchandise delivery and let the system choose the best person to receive it and in what terms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item align-self-center">
+                    <div class="single-roadmap road-right">
+                        <div class="row">
+                            <div class="col-5 align-self-center">
+                                <div class="single-roadmap-img">
+                                    <img src="assets/img/roadmap-5.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-7">
+                                <div class="roadmap-text">
+                                    <p>Find a way to distribute resources</p>
+                                    <h5>Main Resource Channel</h5>
+                                    <p>Sending anything to anyone that needs it anywhere without having to worry about whether or not it will get to them.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="single-roadmap text-center road-left">
+                        <div class="single-roadmap-img">
+                            <img src="assets/img/roadmap-4.png" alt="">
+                        </div>
+                        <div class="space-30"></div>
+                        <div class="roadmap-text">
+                            <p>Planning the Supply process</p>
+                            <div class="space-10"></div>
+                            <h5>Delivery of resources</h5>
+                            <p>System will provide you with all the details you would need to get your distributed resources to the final person that you want to help across the world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item align-self-center">
+                    <div class="single-roadmap road-right">
+                        <div class="row">
+                            <div class="col-5 align-self-center">
+                                <div class="single-roadmap-img">
+                                    <img src="assets/img/roadmap-5.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-7">
+                                <div class="roadmap-text">
+                                    <p>Management</p>
+                                    <h5>Finally</h5>
+                                    <p>Providing an opportunity to the poor households to grow and to build their own livelihoods.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <a href="sign.html" class="logibtn gradient-btn">Donate</a>
+    <hr>
+    <!--roadmap area end-->
+
+    <!--team-bg-->
+    <div class="team-bg">
+        <!--team area start-->
+        <div class="team-area wow fadeInUp section-padding" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>CO-FOUNDERS</h5>
+                            <div class="space-10"></div>
+                            <h1>Software Developers</h1>
+                        </div>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="single-team">
+                            <div class="single-team-img">
+                                <img src="assets/img/moses.jpg" alt="">
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="single-team-content">
+                                <h3>Moses Ochieng</h3>
+                                <div class="space-10"></div>
+                                <h6>FOUNDER & CEO</h6>
+                            </div>
+                            <div class="space-10"></div>
+                            <div class="single-team-social">
+                                <ul>
+                                    <li><a class="ico-1" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="ico-2" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a class="ico-3" href="#"><i class="fa fa-twitter "></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            <div class="space-30"></div>
+        </div>
+        <!--team area end-->
+
+        <!--apps area start-->
+        <div class="apps-area wow fadeInUp section-padding" id="apps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5 offset-1 align-self-center">
+                        <div class="heading">
+                            <h5>Stand a chance to win</h5>
+                            <div class="space-10"></div>
+                            <h1>Become a Pesa Otas Ambassador :</h1>
+                            <div class="space-20"></div>
+                            <p>Be part of the team that gives to the poor and stand a chance to be leveled up and winning a Pesa Otas shirt ,cup or merchandise </p>
+                            <p>Level up your winning ways and make an opportunity to win any of our merchandise , Be part of our program of Ambassadors or donate to make your dream come true.</p>
+                        </div>
+                        <div class="space-30"></div>
+
+                        <a href="#" class="gradient-btn apps-btn apps-btn-2"> <i class="zmdi zmdi-apple"></i>Donate</a>
+                    </div>
+                    <div class="col-12 col-lg-5 offset-1">
+                        <div class="apps-img">
+                            <img src="assets/img/home.png" style="height: 500px;width: 600px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--apps area end-->
+
+        <!--faq area start-->
+        <div class="faq-area wow fadeInUp" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>faq</h5>
+                            <div class="space-10"></div>
+                            <h1>Frequently Asked Questions </h1>
+                        </div>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="faq-list">
+                            <ul class="nav nav-pills" id="pills-tab">
+                                <li><a class="active" data-toggle="pill" href="#one">General Questions</a></li>
+                                <li><a data-toggle="pill" href="#two">Token process</a></li>
+                                <li><a data-toggle="pill" href="#three">Open Market Place</a></li>
+                                <li><a data-toggle="pill" href="#four">Exchange rates & Barcode system</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-50"></div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="one">
+                    <div class="container-fluid">
+                        <div class="faq-carousel owl-carousel">
+                            <div class="single-faq">
+                                <h4>Will the value of my money change once I token it  ?</h4>
+                                <div class="space-20"></div>
+                                <p>The system only allows for a specific commission depending on your deposit size to us that is taken ,otherwise your money limit remains the same and is not changed.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>Are there fraudsters in relatively buying and selling of tokens  ?</h4>
+                                <div class="space-20"></div>
+                                <p>Yes all crypto exchange platforms are faced with fraudsters or its users exposed to cyber attacks be very careful to avoid being a victim by reading through our white paper..</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>Is Pesa Otas a cryptocurrency  ?</h4>
+                                <div class="space-20"></div>
+                                <p>Yes Pesa Otas is a cryptocurrency within the ethereum blockchain that has uses in ensuring protection of different forms of financial assets called NFTs by either converting them to a form only obtainable to users through an access fee.The system also involves a Decentralised financial system called DeFi which prompts the user to use and exchange money.Click more to download our whitepaper.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>How to Trade Cryptocurrencies ?</h4>
+                                <div class="space-20"></div>
+                                <p>Pesa Otas allows you to buy currencies or other cryptocurrencies by after depositing your tokens .This is done to ensure efficiency as well as collaboration of use.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="two">
+                    <div class="container-fluid">
+                        <div class="faq-carousel owl-carousel">
+                            <div class="single-faq">
+                                <h4>How much is my currency worth in comparison to Pesa Otas ?</h4>
+                                <div class="space-20"></div>
+                                <p>Currently our platform is only able to handle two currencies that is the Kenya Shillings and the american dollar ,once converted your money ca be exchanged through our system by the standards provided in the token exchange page.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>Who wins the prizes for the T shirt or other merchandise by Pesa Otas ?</h4>
+                                <div class="space-20"></div>
+                                <p>Anyone can win the merchandise by Pesa Otas as long as they are able to become better ambassadors to the system through use of their influence to create attention as well as publicity ad then sharing the link with our team.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>How to Trade Cryptocurrencies ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>How to Trade Cryptocurrencies ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="three">
+                    <div class="container-fluid">
+                        <div class="faq-carousel owl-carousel">
+                            <div class="single-faq">
+                                <h4>Why I should invest in ICO ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>The Risks of Investing in ICO ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>How to Trade Cryptocurrencies ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="four">
+                    <div class="container-fluid">
+                        <div class="faq-carousel owl-carousel">
+                            <div class="single-faq">
+                                <h4>Why I should invest in ICO ?</h4>
+                                <div class="space-20"></div>
+                                <p>Swimming hundreds of feet beneath the ocean’s surface in many parts of the world are prolific architects called giant larvaceans. These zooplankton are not particularly giant themselves (they resemble tadpoles and are about
+                                    the size of a pinkie finger), but every day.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                            <div class="single-faq">
+                                <h4>What is the fee charged with the purchase of tokens  ?</h4>
+                                <div class="space-20"></div>
+                                <p>The commission fee is dependent on the following one is the amount of token one is purchasing and two is the services you choose those that want to donate have less amount on service fee in commission rate as opposed to those operating in open market. .</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                                
+                            <div class="single-faq">
+                                <h4>What is the Barcode system  ?</h4>
+                                <div class="space-20"></div>
+                                <p>Our Bar code system enhances the cash flow of your organization by converting it and assigning it a public key only accessible through a private key.</p>
+                                <div class="space-20"></div>
+                                <a href="#" class="readmore-btn"><i class="fa fa-angle-right"></i>readmore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-90"></div>
+        </div>
+        <!--faq area end-->
+    </div>
+    <!--team bg area end-->
+
+    <!--community area start-->
+    <div class="community-area wow fadeInUp section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="heading">
+                        <h5>Great Community</h5>
+                        <div class="space-10"></div>
+                        <h1>Our Community </h1>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-lg">
+                    <div class="single-community big-social">
+                        <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-community mid-social">
+                        <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="single-community">
+                        <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-community">
+                        <a class="github" href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="single-community mid-social">
+                        <a class="behance" href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-community big-social">
+                        <a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg">
+                    <div class="single-community mid-social">
+                        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="single-community">
+                        <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--community area end-->
+
+    <!--footer area start-->
+    <div class="footera-area section-padding wow fadeInDown">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-footer">
+                        <div class="logo-area footer">
+                            <a href="#"><img src="assets/img/way.png" style ="width: 150px;height: 100px;" alt=""></a>
+                        </div>
+                        <div class="space-20"></div>
+                        <p>Incase you run into any problem kindly reach out to our email address and we will get back to you.Please input your email address and we will get in touch with you </p>
+                        <div class="space-10"></div>
+                        <p>
+            
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | h <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#"></a>
+                
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <div class="single-footer">
+                        <ul>
+                            <li><a href="#">Monetary Exchange</a></li>
+                            <li><a href="#">Token Subscription</a></li>
+                            <li><a href="#">Donation Process</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="single-footer">
+                        <ul>
+                            <li><a href="#">White Paper</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">APP</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-footer">
+                        <p>Subscribe to our Newsletter</p>
+                        <div class="space-20"></div>
+                        <div class="footer-form">
+                            <form action="#">
+                                <input type="email" placeholder="Email Address">
+                                <a href="" class="gradient-btn subscribe">GO</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer area end-->
+
+    <!-- jquery 2.2.4 js-->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.js"></script>
+    <!-- carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- wow js-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>\
+    <!--skroller js-->
+    <script src="assets/js/skrollr.min.js"></script>
+    <!--mobile menu js-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--particle s-->
+    <script src="assets/js/particles.min.js"></script>
+    <!-- main js-->
+    <script src="assets/js/main.js"></script>
+    <script src="tokens.js"></script>
+</body>
+
+</html>
