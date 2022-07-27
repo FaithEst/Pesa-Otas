@@ -266,8 +266,6 @@ a.single-about,
 }
 
 .gradient-btn, .v2 {
-  height: 55px;
-  line-height: 36px;
   padding: 0 30px;
   font-weight: 500;
   color: #005dea;
@@ -949,21 +947,24 @@ apps area css
   font-size: 20px;
   padding-right: 10px;
 }
-
 .gradient-btn.apps-btn {
   padding: 20px 30px;
   text-transform: capitalize;
 }
 
 .gradient-btn.apps-btn.apps-btn-2{
-  margin-left: 10px;
-  background: transparent;
-  border: 2px solid #1452e2;
+  /* margin-left: 10px; */
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  /* background: transparent; */
+  /* border: 2px solid #1452e2; */
 }
 
 .apps-area p{
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 
 .apps-img img {
@@ -1089,7 +1090,7 @@ footer area css
 }
 
 .single-footer li a {
-  color: #fff;
+  color: #000;
   display: inline-block;
   margin-bottom: 10px;
 }
