@@ -158,12 +158,13 @@ a.single-about,
   z-index: 9999999;
   position: relative;
   width: 100%;
-  background: #000D47;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0, 0.4);
+  /* background: #000D47; */
 }
 
 .header-area.header-absolate.skrollable.skrollable-after {
   padding-top: 15px;
-  background: rgb(0, 13, 71, 0.9);
+  /* background: rgb(0, 13, 71, 0.9); */
   padding-bottom: 15px;
 }
 
@@ -181,7 +182,7 @@ a.single-about,
   display: block;
   padding: 10px;
   font-size: 14px;
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
 }
 
@@ -190,7 +191,6 @@ a.single-about,
   left: 0;
   top: 70px;
   z-index: 999;
-  background: #001763;
   border-radius: 5px;
   visibility: hidden;;
   opacity: 1;
@@ -205,7 +205,7 @@ a.single-about,
 }
 
 .main-menu li ul li a:hover {
-  background: #062489;
+  /* background: #062489; */
   padding-left: 15px;
 }
 
@@ -966,9 +966,15 @@ apps area css
   font-size: 16px;
   color: #000;
 }
-
+.apps-img{
+  width: 500px;
+  height: fit-content;
+}
 .apps-img img {
-  width: 400px;
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 /*===================
@@ -1788,3 +1794,24 @@ a.gradient-btn:hover:after{
 ::placeholder{color:#fff}
 
 /*===================================== end =================================*/
+/* ------documentation-area-------- */
+.single-document{
+  width: 150px;
+}
+.document-flag{
+  width: 100%;
+  height: 150px;
+}
+.document-flag img{
+  object-fit: cover;
+}
+/* ------ welcome ----- */
+.welcome-img{
+  width: 550px;
+  height: 500px;
+}
+.welcome-img img{
+object-fit: cover;
+border-radius: 20px;
+box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.4);
+}
